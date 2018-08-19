@@ -1,0 +1,106 @@
+body {
+    background-color: #eee;
+    font-size: 14px;
+}
+
+.wrapper {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #999;
+    color: #666;
+    margin: 10px;
+    padding: 40px;
+}
+
+.wrapper h2 {
+    border-bottom: solid 1px #666;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.wrapper div {
+    text-align: center;
+}
+.glyphicon-remove{
+    color: red;
+}
+.wrapper .btn {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+#data_table tr td:nth-child(1){
+    text-align: center;
+}
+#data_table tr td:nth-child(2){
+    width: 30%;
+}
+#data_table tr td:nth-child(3){
+    text-align: center;
+    width: 10%;
+}
+#data_table tr td:nth-child(4){
+    text-align: right;
+    width: 35%;
+}
+/*#data_table tr span:nth-child(4){
+    text-align: right;
+
+}*/
+
+
+/*#data_table th:nth-child(1){
+    width: 2%;
+}
+
+#data_table th:nth-child(2), #data_table th:nth-child(5) {
+    width: 15%;
+}
+
+#data_table th:nth-child(5)
+
+#data_table th:nth-child(3) {
+    width: 10%;
+}
+
+#data_table th:nth-child(4) {
+    width: 50%;
+}*/
+
+
+#data_table tr td:nth-child(3) {
+    text-align: center;
+}
+
+#data_table tr td:nth-child(5) {
+    text-align: right;
+}
+
+.dynatable-sort-header,
+.dynatable-sort-header:hover {
+    color: #666;
+}
+
+#data_table .fa-check {
+    color: #090;
+}
+
+#data_table .fa-times {
+    color: #d00;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    width: 100%;
+}
+
+div.inputwrapper {
+    max-width: 50%;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+label.error {
+    color: #f00;
+}
