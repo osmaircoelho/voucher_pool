@@ -5,7 +5,7 @@ to get discounts in a web shop.
 
 ##Installation
 
-1. Clone the repository ()
+1. Clone the repository ( git@github.com:osmaircoelho/voucher_pool.git )
 4. Copy **.env.example** file to **.env** and change the database connection configuration.
 5. Run`composer update`.
 6. Run `php artisan migrate:refresh --seed` to migrate and create the datas.
